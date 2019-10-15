@@ -16,7 +16,7 @@ Read data of all android apps (Data Structure: list of pandas DataFrame where ea
 
 - **Step 2 - Feature Extraction:** 
 
-..* To classify sentiment of reviews, SentiStrength java code run as a process (which either takes single review or txt file containing one review in each line). Thus, the reviewText column is exported as a txt file which then passes on to SentiStrength to classify all reviews (process approx 8-10 lakhs reviews/ minute). The output file is then read into pandas for further processing. (Note: delete the output file named reviews0_out.txt before running the sentiment classfication again)
+⋅⋅* To classify sentiment of reviews, SentiStrength java code run as a process (which either takes single review or txt file containing one review in each line). Thus, the reviewText column is exported as a txt file which then passes on to SentiStrength to classify all reviews (process approx 8-10 lakhs reviews/ minute). The output file is then read into pandas for further processing. (Note: delete the output file named reviews0_out.txt before running the sentiment classfication again)
 
 - parameters supplied to SentiStrength process:
     explain: include explanation column illustrating how a given reviews gets a particular sentiment class. 
