@@ -12,7 +12,7 @@ To run this code, please make sure you have the following:
 - SentiStrength files (provided in SentiStrength Folder). Refer to SentiStrength Java Manual for more options that can be included while running sentiment analysis.
 
 ### Overview of code:
-- **Step 1 - Data Ingestion:**
+1. Data Ingestion:
 Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
 
 - **Step 2 - Feature Extraction:** <br>
@@ -27,11 +27,11 @@ Read data of all android apps (Data Structure: list of pandas DataFrame where ea
     capitalsBoostTermSentiment: gives boost to the sentiment of a term whose all letters are capital (like WRONG, AWESOME)
     Refer to SentiStrength Java Manual for more options that can be included while running sentiment analysis.
 
-#### Note: please refer to paper <a href = "https://www.researchgate.net/publication/266657943_Sentiment_analysis_of_commit_comments_in_GitHub_An_empirical_study"> sentiment_analysis of commit comments.pdf</a> to know more about sentiment classification process.
+Note: please refer to paper <a href = "https://www.researchgate.net/publication/266657943_Sentiment_analysis_of_commit_comments_in_GitHub_An_empirical_study"> sentiment_analysis of commit comments.pdf</a> to know more about sentiment classification process.
 
 -
 
-- **Step 2 - Feature Extraction:**
+- **Step 3 - Analysis & Results:**
 
 - Various exploratory graphs are then plotted at both app level and play store level and conclusions are added about what inferences can be drawn from those graphs.
 
