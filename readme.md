@@ -13,7 +13,7 @@ To run this code, please make sure you have the following:
 
 ### Overview of code:
 **1. Data Ingestion:** <br>
-  .Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
+  - Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
 
 **2. Feature Extraction:** <br>
   - Though rating and sentiment is discrete, however reviewLength is continuous and hence we have binned the variable into 5 classes based on percentiles (20,40,60,80,100).
