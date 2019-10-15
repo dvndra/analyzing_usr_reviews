@@ -1,4 +1,5 @@
 ## The attached jupyter notebook shows how *rating, sentiment and length of user reviews* affect deveoper response to user reviews
+[![Supported Python version](https://img.shields.io/pypi/pyversions/Lucid.svg)]()
 
 In this analysis, developer response behaviour comprises of two important aspects:
 - whether developer provides a response to a review, and 
