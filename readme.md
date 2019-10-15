@@ -29,7 +29,7 @@ To run this code, please make sure you have the following:
 
 - Various exploratory graphs are then plotted at both app level and play store level and conclusions are added about what inferences can be drawn from those graphs. <br>
 <a href="http://dswami.freevar.com/git_icons/usr_results_1.png"><img src="http://dswami.freevar.com/git_icons/usr_results_1.png" width="200px" height="200px" alt=" "></a>
-
-
+<a href="http://dswami.freevar.com/git_icons/usr_results_2.png"><img src="http://dswami.freevar.com/git_icons/usr_results_2.png" width="200px" height="200px" alt=" "></a>
+<a href="http://dswami.freevar.com/git_icons/usr_results_3.png"><img src="http://dswami.freevar.com/git_icons/usr_results_3.png" width="200px" height="200px" alt=" "></a>
 
 If you have further questions, feel free to contact dswami@usc.edu
