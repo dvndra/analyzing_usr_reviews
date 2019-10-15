@@ -5,13 +5,14 @@ In this analysis, developer response behaviour comprises of two important aspect
 - how much time developer takes to respond (aka response time)
 The code template can be used to do similar analysis on custom dataset structured as one .csv file for every app in a folder.
 
-##### Pre-requisites:
+#### Pre-requisites:
 To run this code, please make sure you have the following:
 - the original dataset folder named Top100Android, or your custom dataset from any app store.
 - SentiStrength files (provided in SentiStrength Folder). Refer to SentiStrength Java Manual for more options that can be included while running sentiment analysis.
 
 ### Overview of code:
-- <bold>Step 1 - Data Ingestion: </bold> Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
+- Step 1 - Data Ingestion:
+Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
 
 - To classify sentiment of reviews, SentiStrength java code run as a process (which either takes single review or txt file containing one review in each line). Thus, the reviewText column is exported as a txt file which then passes on to SentiStrength to classify all reviews (process approx 8-10 lakhs reviews/ minute). The output file is then read into pandas for further processing. (Note: delete the output file named reviews0_out.txt before running the sentiment classfication again)
 
