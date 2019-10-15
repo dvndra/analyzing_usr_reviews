@@ -1,5 +1,5 @@
 ## The attached jupyter notebook shows how *rating, sentiment and length of user reviews* affect deveoper response to user reviews
-[![Supported Python version](https://img.shields.io/pypi/pyversions/Lucid.svg)]()
+[![Supported Python version](https://dswami.freevar.com/git_icons/pyversions.svg)]()
 
 Developer response behaviour comprises of two important aspects:
 - whether developer provides a response to a review, and if applicable
@@ -28,5 +28,6 @@ To run this code, please make sure you have the following:
 **3. Analysis & Results:** <br>
 
 - Various exploratory graphs are then plotted at both app level and play store level and conclusions are added about what inferences can be drawn from those graphs.
+[![Results1] http://dswami.freevar.com/git_icons/results1.png()
 
 If you have further questions, feel free to contact dswami@usc.edu
