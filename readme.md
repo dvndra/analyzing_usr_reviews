@@ -12,12 +12,11 @@ To run this code, please make sure you have the following:
 - SentiStrength files (provided in SentiStrength Folder). Refer to SentiStrength Java Manual for more options that can be included while running sentiment analysis.
 
 ### Overview of code:
-1. Data Ingestion:
+**1. Data Ingestion:** <br>
 Read data of all android apps (Data Structure: list of pandas DataFrame where each dataframe contains all reviews from a single android app) and filter apps containing at least one developer response (i.e. % devResponse >0.00) and append data of all such apps into single dataframe with columns ["appName", "date","rating","reviewText", "dev-reply-time", "dev-reply-text"]
 
-- **Step 2 - Feature Extraction:** <br>
-
-... Though rating and sentiment is discrete, however reviewLength is continuous and hence we have binned the variable into 5 classes based on percentiles (20,40,60,80,100).
+**2. Feature Extraction:** <br>
+  - Though rating and sentiment is discrete, however reviewLength is continuous and hence we have binned the variable into 5 classes based on percentiles (20,40,60,80,100).
 ⋅⋅⋅ To classify sentiment of reviews, SentiStrength java code run as a process (which either takes single review or txt file containing one review in each line). Thus, the reviewText column is exported as a txt file which then passes on to SentiStrength to classify all reviews (process approx 8-10 lakhs reviews/ minute). The output file is then read into pandas for further processing. (Note: delete the output file named reviews0_out.txt before running the sentiment classfication again)
 
 - parameters supplied to SentiStrength process:
