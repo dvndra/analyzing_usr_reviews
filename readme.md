@@ -28,7 +28,7 @@ To run this code, please make sure you have the following:
 **3. Analysis & Results:** <br>
 
 - Various exploratory graphs are then plotted at both app level and play store level and conclusions are added about what inferences can be drawn from those graphs. <br>
-<a href="http://dswami.freevar.com/git_icons/usr_results_1.png"><img src="http://dswami.freevar.com/git_icons/usr_results_1.png" width="20" height="20" alt=" "></a>
+<a href="http://dswami.freevar.com/git_icons/usr_results_1.png"><img src="http://dswami.freevar.com/git_icons/usr_results_1.png" width="200px" height="200px" alt=" "></a>
 
 
 
