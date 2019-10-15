@@ -28,6 +28,6 @@ To run this code, please make sure you have the following:
 **3. Analysis & Results:** <br>
 
 - Various exploratory graphs are then plotted at both app level and play store level and conclusions are added about what inferences can be drawn from those graphs.
-[![Results1] http://dswami.freevar.com/git_icons/usr_results_1.png()
+[![Results1] (http://dswami.freevar.com/git_icons/usr_results_1.png)]()
 
 If you have further questions, feel free to contact dswami@usc.edu
