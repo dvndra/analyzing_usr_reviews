@@ -1,4 +1,4 @@
-## The attached jupyter notebook shows how <emp> rating, sentiment and length of user reviews </emp> affect developer response and response time
+## The attached jupyter notebook shows how *rating, sentiment and length of user reviews* affect developer response and response time
 
 To run this code, please make sure you have the following:
 - the original dataset named Top100Android,
